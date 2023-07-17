@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EitherPlayground</string>
+    <string name="username_error">Username cannot be empty</string>
+    <string name="password_empty_error">Password cannot be empty</string>
+    <string name="password_too_short_error">Password must be at least 5 characters long</string>
+    <string name="connection_error">You seem to be offline.</string>
+    <string name="timeout_error">Server is not responding.</string>
+    <string name="server_error">Server is down.</string>
+    <string name="unauthorized_error">Incorrect credentials.</string>
+    <string name="bad_request_error">Server is not responding.</string>
+    <string name="not_found_error">Given resource does not exist.</string>
+    <string name="general_request_error">Request failed.\nCode: %d\n%s</string>
+    <string name="unknown_error">Something went wrong.\n%s</string>
+    <string name="movies">Movies</string>
+    <string name="account">Account</string>
+    <string name="log_in">Log in</string>
+    <string name="log_out">Log out</string>
+    <string name="retry">Retry</string>
+</resources>
