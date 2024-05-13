@@ -2,7 +2,7 @@ buildscript {
     ext {
         kotlinVersion = "1.8.21"
         composeBomVersion = '2023.05.00'
-        hiltVersion = '2.45'
+        hiltVersion = '2.51.1'
         okHttpVersion = "4.10.0"
         destinationVersion = "1.8.39-beta"
     }
