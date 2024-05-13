@@ -7,10 +7,10 @@ updates:
     groups:
       hilt:
         patterns:
-          - "hilt*"
+          - "com.google.dagger*"
       androidx:
         patterns:
           - "androidx*"
     allow:
-      - dependency-name: "hilt*"
+      - dependency-name: "com.google.dagger*"
       - dependency-name: "androidx*"
