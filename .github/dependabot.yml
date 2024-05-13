@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: gradle
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      hilt:
+        patterns:
+          - "hilt*"
+      androidx:
+        patterns:
+          - "androidx*"
+    allow:
+      - dependency-name: "hilt*"
+      - dependency-name: "androidx*"
